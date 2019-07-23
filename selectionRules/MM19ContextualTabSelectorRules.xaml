@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabSelectorRules xmlns="clr-namespace:Autodesk.AutoCAD.Ribbon;assembly=AcWindows" Ordering="0">
+    <TabSelectorRules.References>
+        <AssemblyReference Namespace="MM19Helper" Assembly="MM19Helper" />
+    </TabSelectorRules.References>
+    <Rule Uid="MM19SelectionRule" DisplayName="MM19 Selecion Rule" Theme="Green" Trigger="Selection">
+        <![CDATA[MM19Helper.Functions.ShowMyTab(Selection)]]>
+    </Rule>
+</TabSelectorRules>

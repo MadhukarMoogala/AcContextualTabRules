@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabSelectorRules  
+  xmlns="clr-namespace:Autodesk.AutoCAD.Ribbon;assembly=AcWindows"
+  Ordering="0">
+  <TabSelectorRules.References>
+     <AssemblyReference
+       Namespace="Rules"
+       Assembly="Rules"/>
+  </TabSelectorRules.References>
+  <Rule
+    Uid="ADNPluginSampleRuleId"
+    DisplayName="Sample: Two circles selected rule"
+    Theme="Green"
+    Trigger="Selection">
+     <![CDATA[
+      SampleRule.TheRule.TwoCirclesSelected
+    ]]>
+  </Rule>
+</TabSelectorRules>
