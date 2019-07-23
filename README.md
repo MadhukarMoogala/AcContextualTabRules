@@ -8,6 +8,9 @@ This repo consists of three C# projects.
 	- This project consists a custom function rule to trigger, we just check if the selection is Line or not, if it Line we return true, which eventually contextually highling the tab.
 - Rules
 	- This project consists a custom function rule to trigger up selection of two circles, In this exercise we highlight an existing tab.
+-  For reference included contextualSelector rules, you need to copy to `${acad}` installation folder.
+	- \selectionRules\MM19ContextualTabSelectorRules.xaml
+	- \selectionRules\RulesContextualTabSelectorRules.xaml
 
 
 ### To Build
@@ -18,10 +21,7 @@ deven MM19CustomTab.sln
 msbuild /t:Build MM19CustomTab.sln
 ```
 ### GIF Demonstration
-<<<<<<< HEAD
 
 ![](MM19Context.gif)
 
-=======
-![](MM19Context.gif)
->>>>>>> ae5306acbc4f3e876385d892a4dff6d281b8c556
+
