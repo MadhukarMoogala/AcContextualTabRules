@@ -18,6 +18,10 @@ deven MM19CustomTab.sln
 msbuild /t:Build MM19CustomTab.sln
 ```
 ### GIF Demonstration
+<<<<<<< HEAD
 
 ![](MM19Context.gif)
 
+=======
+![](MM19Context.gif)
+>>>>>>> ae5306acbc4f3e876385d892a4dff6d281b8c556
